@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: Tech
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -31,15 +31,15 @@ configuration:
         highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#fff23688"
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#b3aa0288"
+        light: "#0e0d0b"
+        lightgray: "#2a2720"
+        gray: "#6b6456"
+        darkgray: "#e8e0d0"
+        dark: "#f4eede"
+        secondary: "#c8a96e"
+        tertiary: "#ddc28d"
+        highlight: rgba(200, 169, 110, 0.15)
+        textHighlight: "#c8a96e55"
 plugins:
   - source: github:quartz-community/created-modified-date
     enabled: true
@@ -207,6 +207,8 @@ plugins:
       group: toolbar
   - source: github:quartz-community/breadcrumbs
     enabled: true
+    options:
+      rootName: Tech
     layout:
       position: beforeBody
       priority: 5

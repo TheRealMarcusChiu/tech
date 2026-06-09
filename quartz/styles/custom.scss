@@ -11,3 +11,29 @@
   --headerFont: "Inter", system-ui, sans-serif;
   --titleFont: "Inter", system-ui, sans-serif;
 }
+
+// Dark-mode palette matched to template/admin.html (warm near-black + gold).
+// The bundled Obsidian theme (quartz-themes) drives every color from its
+// --color-base-* ramp and --accent-* HSL inside @layer obsidian-theme. These
+// unlayered overrides win, recoloring the whole theme without touching it.
+//   admin: --bg #0e0d0b  --text #e8e0d0  --muted #6b6456
+//          --border #2a2720  --accent #c8a96e
+:root[saved-theme="dark"] {
+  --color-base-00: #0e0d0b; // background
+  --color-base-05: #121110;
+  --color-base-10: #161512; // alt surfaces
+  --color-base-20: #1c1a16;
+  --color-base-25: #211f19;
+  --color-base-30: #2a2720; // borders
+  --color-base-35: #353128;
+  --color-base-40: #444031;
+  --color-base-50: #555041; // faint text
+  --color-base-60: #5f5a4b;
+  --color-base-70: #6b6456; // muted text
+  --color-base-100: #e8e0d0; // normal text
+
+  // gold accent #c8a96e; theme derives accent-1/-2 hover tints from this HSL
+  --accent-h: 39;
+  --accent-s: 45%;
+  --accent-l: 61%;
+}
