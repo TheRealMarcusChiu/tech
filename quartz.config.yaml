@@ -197,6 +197,11 @@ plugins:
       position: beforeBody
       priority: 30
   - source: github:quartz-community/page-title
+    enabled: false
+    layout:
+      position: left
+      priority: 10
+  - source: ./local-plugins/page-title
     enabled: true
     layout:
       position: left
