@@ -80,6 +80,11 @@ plugins:
   - source: ./local-plugins/recent
     enabled: true
     order: 35
+  - source: ./local-plugins/sidebar-toggle
+    enabled: true
+    layout:
+      position: beforeBody
+      priority: 1
   - source: github:quartz-community/table-of-contents
     enabled: true
     order: 50

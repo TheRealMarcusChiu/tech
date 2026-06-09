@@ -177,6 +177,132 @@ article h1 {
 }
 
 // ============================================================
+// Narrow-screen left sidebar: collapse off-canvas behind a floating
+// hamburger (top-left), slide in when html.left-open is set by the
+// sidebar-toggle component. The search bar floats top-right, fixed
+// (anchored on scroll). Hamburger/backdrop are hidden on desktop.
+// ============================================================
+.left-sidebar-controls {
+  display: contents; // wrapper shouldn't affect layout; children are fixed
+}
+.left-sidebar-toggle,
+.left-sidebar-backdrop {
+  display: none; // desktop: no toggle UI
+}
+
+@media all and (max-width: 800px) {
+  // push the page content down so the fixed toggle icon (top-left) and search
+  // bar (top-right) don't cover the top of the content.
+  #quartz-body .center {
+    padding-top: 4rem !important;
+  }
+
+  // floating hamburger, top-left
+  .left-sidebar-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0.7rem;
+    left: 0.7rem;
+    z-index: 1002;
+    width: 2.4rem;
+    height: 2.4rem;
+    padding: 0;
+    border: 1px solid var(--background-modifier-border, var(--lightgray));
+    border-radius: 6px;
+    background: var(--background-secondary, var(--lightgray));
+    color: var(--text-normal, var(--dark));
+    cursor: pointer;
+  }
+
+  // dim backdrop behind the open sidebar (click to close)
+  .left-sidebar-backdrop {
+    display: block;
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition:
+      opacity 0.2s ease,
+      visibility 0.2s ease;
+  }
+  html.left-open .left-sidebar-backdrop {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  // off-canvas left sidebar (overrides base.scss mobile row reflow).
+  // Slide via `left` (not transform) so the fixed search child below still
+  // anchors to the viewport, not to a transformed containing block.
+  // When open it fills the whole screen with a solid, opaque background so
+  // nothing behind shows through.
+  #quartz-body .sidebar.left {
+    position: fixed;
+    top: 0;
+    left: -100vw;
+    width: 100vw;
+    max-width: none;
+    height: 100vh;
+    margin: 0;
+    // top padding clears the fixed toggle icon with a comfortable gap.
+    // !important: the Obsidian theme sets its own padding on div.sidebar.left.
+    padding: 8rem 1.5rem 2rem !important;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.2rem;
+    overflow-y: auto;
+    // !important: the Obsidian theme sets `div.sidebar.left { background-color:
+    // transparent }` with high specificity; force the opaque fill so nothing
+    // behind the full-screen open sidebar shows through.
+    background-color: var(--background-primary, var(--light)) !important;
+    z-index: 1001;
+    transition: left 0.2s ease;
+  }
+  html.left-open #quartz-body .sidebar.left {
+    left: 0;
+  }
+  // base.scss gives the mobile-only spacer `flex: 2 1 auto`, which grows in this
+  // column layout and pushes the content (Recent) to mid-screen. Remove it so
+  // items stack right under the title.
+  #quartz-body .sidebar.left .spacer {
+    display: none;
+  }
+
+  // search bar: fixed top-right, stays put on scroll and regardless of the
+  // sidebar's open/closed state.
+  #quartz-body .sidebar.left .search {
+    position: fixed;
+    top: 0.7rem;
+    right: 0.7rem;
+    left: auto;
+    width: auto;
+    z-index: 1002;
+  }
+  #quartz-body .sidebar.left .search > .search-button {
+    width: auto;
+  }
+
+  // Recent list grows to fill the remaining height down to the bottom of the
+  // screen (and scrolls internally if it overflows).
+  #quartz-body .sidebar.left .recent-sidebar {
+    flex: 1 1 auto;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  #quartz-body .sidebar.left .recent-sidebar .recent-sidebar-list {
+    flex: 1 1 auto;
+    min-height: 0;
+    max-height: none;
+  }
+}
+
+// ============================================================
 // `recent-sidebar` component (left sidebar): recent dated pages,
 // title + tiny date. No text wrap; scroll horizontally for long
 // titles and vertically when the list is long. Unlayered so it
