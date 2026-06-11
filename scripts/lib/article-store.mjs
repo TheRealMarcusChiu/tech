@@ -139,7 +139,7 @@ export async function saveUpload(articlesDir, dir, filename, buffer) {
   let n = 2;
   while (true) {
     try { await stat(join(assetsDir, name)); name = base + '-' + n++ + ext; }
-    catch { break; }
+    catch (e) { if (e.code !== 'ENOENT') throw e; break; } // free name found
   }
   await writeFile(join(assetsDir, name), buffer);
   return 'assets/' + name;
