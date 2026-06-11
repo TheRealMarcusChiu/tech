@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: "TEST ARTICLE"
 tags: ["combinatorics", "test"]
 img: 'assets/Snap_Camera_Photo_2.jpg'
