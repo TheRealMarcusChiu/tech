@@ -6,6 +6,8 @@ import { createServer } from 'node:http';
 import { readFile, stat } from 'node:fs/promises';
 import { join, normalize, extname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { execFile } from 'node:child_process';
+import { promisify } from 'node:util';
 import { regenerate } from './lib/manifest.mjs';
 import {
   listArticles, readArticle, saveArticle, deleteArticle, saveUpload, allTags,
@@ -34,6 +36,38 @@ function readBody(req) {
   });
 }
 
+const execFileP = promisify(execFile);
+
+// Stage everything, commit, and push — so each admin edit is persisted to git.
+// Never throws: returns a status object the API echoes back. If root isn't a
+// git repo (e.g. tests against a temp dir) it skips silently. A failed push
+// (offline / no auth) still reports the successful local commit.
+async function gitCommitPush(root, message) {
+  try {
+    await execFileP('git', ['rev-parse', '--is-inside-work-tree'], { cwd: root });
+  } catch {
+    return { skipped: true };
+  }
+  try {
+    await execFileP('git', ['add', '-A'], { cwd: root });
+    try {
+      await execFileP('git', ['commit', '-m', message], { cwd: root });
+    } catch (e) {
+      const out = String((e.stdout || '') + (e.stderr || ''));
+      if (/nothing to commit/i.test(out)) return { committed: false, pushed: false };
+      throw e;
+    }
+    try {
+      await execFileP('git', ['push'], { cwd: root });
+      return { committed: true, pushed: true };
+    } catch (e) {
+      return { committed: true, pushed: false, error: String(e.stderr || e.message || e).trim() };
+    }
+  } catch (e) {
+    return { committed: false, pushed: false, error: String(e.stderr || e.message || e).trim() };
+  }
+}
+
 export function createAdminServer(root) {
   const articlesDir = join(root, 'articles');
 
@@ -55,14 +89,16 @@ export function createAdminServer(root) {
         const data = JSON.parse((await readBody(req)).toString('utf8') || '{}');
         const dir = await saveArticle(articlesDir, data);
         await regenerate({ articlesDir });
-        return sendJson(res, 200, { dir });
+        const git = await gitCommitPush(root, `admin: save "${data.title || dir}" (${dir})`);
+        return sendJson(res, 200, { dir, git });
       }
       if (p === '/api/article' && req.method === 'DELETE') {
         const dir = url.searchParams.get('dir');
         if (!dir) return sendJson(res, 400, { error: 'dir required' });
         await deleteArticle(articlesDir, dir);
         await regenerate({ articlesDir });
-        return sendJson(res, 200, { ok: true });
+        const git = await gitCommitPush(root, `admin: delete ${dir}`);
+        return sendJson(res, 200, { ok: true, git });
       }
       if (p === '/api/upload' && req.method === 'POST') {
         const dir = url.searchParams.get('dir');

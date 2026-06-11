@@ -413,9 +413,20 @@ class Component extends DCLogic {
       });
       if (!r.ok) { const j = await r.json().catch(() => ({})); throw new Error(j.error || ('HTTP ' + r.status)); }
       const j = await r.json();
+      this.lastGit = j.git;
       this.setState((s) => ({ saving: false, ed: { ...s.ed, originalDir: j.dir } }));
       return j.dir;
     } catch (e) { this.setState({ saving: false, error: String(e.message || e) }); return null; }
+  }
+
+  // Each save/delete is auto-committed and pushed server-side. Returns a warning
+  // string only when the commit or push failed (so the change isn't on the remote).
+  gitWarn(g) {
+    if (!g || g.skipped || g.pushed) return '';
+    if (g.committed === false && !g.error) return '';
+    return g.committed
+      ? ('Saved and committed locally, but git push failed:\n\n' + (g.error || 'unknown error'))
+      : ('Saved to disk, but git commit failed:\n\n' + (g.error || 'unknown error'));
   }
 
   ensureSaved = async () => {
@@ -426,7 +437,12 @@ class Component extends DCLogic {
 
   save = async () => {
     const dir = await this.doSave();
-    if (dir) { await this.load(); this.setState({ view: 'list', ed: null }); }
+    if (dir) {
+      const w = this.gitWarn(this.lastGit);
+      if (w) window.alert(w);
+      await this.load();
+      this.setState({ view: 'list', ed: null });
+    }
   };
 
   remove = async (dir) => {
@@ -434,6 +450,9 @@ class Component extends DCLogic {
     try {
       const r = await fetch('/api/article?dir=' + encodeURIComponent(dir), { method: 'DELETE' });
       if (!r.ok) throw new Error('delete failed');
+      const j = await r.json().catch(() => ({}));
+      const w = this.gitWarn(j.git);
+      if (w) window.alert(w);
       await this.load();
     } catch (e) { this.setState({ serverDown: true }); }
   };
