@@ -1,7 +1,7 @@
 ---
-date: 2025-08-11T00:00:00-05:00
 draft: false
 title: "I've Built Tetris Using Unicode"
+tags: ["javascript", "game-development", "web-development"]
 ---
 
 # Problem

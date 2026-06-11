@@ -1,7 +1,7 @@
 ---
-date: 2025-08-16T00:00:00-05:00
 draft: false
 title: "Alert Me on Disk Full  (Telegraf + InfluxDB + Grafana)"
+tags: ["homelab", "monitoring", "grafana", "influxdb", "telegraf"]
 ---
 
 # Problem

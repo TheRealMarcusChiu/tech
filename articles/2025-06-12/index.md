@@ -1,7 +1,7 @@
 ---
-date: 2025-06-12T00:00:00-05:00
 draft: false
 title: "Making This Website HTTPS"
+tags: ["ssl", "nginx", "lets-encrypt", "security", "web-development"]
 ---
 
 For the longest time this site has been in HTTP mode. It's time to HTTPS it.

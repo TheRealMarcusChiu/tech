@@ -1,7 +1,7 @@
 ---
-date: 2025-06-11T00:00:00-05:00
 draft: false
 title: "Homelab #7 - Kasm"
+tags: ["homelab", "kasm", "remote-desktop", "self-hosting"]
 ---
 
 **What is Kasm?**

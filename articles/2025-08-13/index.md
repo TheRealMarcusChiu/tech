@@ -1,7 +1,7 @@
 ---
-date: 2025-08-13T00:00:00-05:00
 draft: false
 title: "Alert me on High Temps (Telegraf + InfluxDB + Grafana)"
+tags: ["homelab", "monitoring", "grafana", "influxdb", "telegraf"]
 ---
 
 # Problem

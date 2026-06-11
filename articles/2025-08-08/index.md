@@ -1,7 +1,7 @@
 ---
-date: 2025-08-08T00:00:00-05:00
 draft: false
 title: "Locked out of my Router (OPNsense)"
+tags: ["opnsense", "networking", "troubleshooting", "router"]
 ---
 
 # Problem

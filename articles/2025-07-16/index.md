@@ -1,7 +1,7 @@
 ---
-date: 2025-07-16T00:00:00-05:00
 draft: false
 title: "Network File System (NFS)"
+tags: ["linux", "nfs", "networking", "storage"]
 ---
 
 # Problem

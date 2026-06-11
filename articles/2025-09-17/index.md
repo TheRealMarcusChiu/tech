@@ -1,7 +1,7 @@
 ---
-date: 2025-09-17T00:00:00-05:00
 draft: false
 title: "Markov Chain Monte Carlo (MCMC)"
+tags: ["mathematics", "statistics", "mcmc", "algorithms"]
 ---
 
 **Metropolis-Hashtings Algorithm** is a Markov Chain Monte Carlo (MCMC) method for obtaining a sequence

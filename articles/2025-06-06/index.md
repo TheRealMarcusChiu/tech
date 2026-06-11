@@ -1,7 +1,7 @@
 ---
-date: 2025-06-06T17:36:22-05:00
 draft: false
 title: "Homelab #4 - Kubernetes Cluster (Infrastructure Setup)"
+tags: ["homelab", "kubernetes", "helm", "networking", "storage"]
 ---
 
 Homelab Series:

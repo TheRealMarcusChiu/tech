@@ -1,7 +1,7 @@
 ---
-date: 2025-06-21T00:00:00-05:00
 draft: false
 title: "Homelab #8 - Wake on LAN (WoL) Proxmox"
+tags: ["homelab", "proxmox", "networking", "wake-on-lan"]
 ---
 
 It's been a couple of years since I've heard of Wake on LAN (WoL) and today I finally decided to set it up.

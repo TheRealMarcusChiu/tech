@@ -1,7 +1,7 @@
 ---
-date: 2026-01-31T00:00:00-00:00
 draft: false
 title: "Disable SSH Password Login in Proxmox LXC Containers"
+tags: ["homelab", "proxmox", "ssh", "security", "lxc"]
 ---
 
 When running LXC containers on Proxmox, one of the simplest and most effective security improvements you can make is disabling SSH password authentication and enforcing SSH key–only access.

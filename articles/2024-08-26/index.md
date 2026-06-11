@@ -1,7 +1,7 @@
 ---
-date: 2024-08-26T17:36:22-05:00
 draft: false
 title: "Homelab #1 - Humble Beginnings"
+tags: ["homelab", "hardware", "networking", "server-rack"]
 ---
 
 Homelab Series:

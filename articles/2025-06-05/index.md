@@ -1,7 +1,7 @@
 ---
-date: 2025-06-05T17:36:22-05:00
 draft: false
 title: "Homelab #3 - Kubernetes Cluster (Initial Setup)"
+tags: ["homelab", "kubernetes", "proxmox", "containers"]
 ---
 
 Homelab Series:

@@ -1,7 +1,7 @@
 ---
-date: 2025-08-15T00:00:00-05:00
 draft: false
 title: "The Law of First Mention"
+tags: ["bible", "web-development", "javascript"]
 ---
 
 # Problem

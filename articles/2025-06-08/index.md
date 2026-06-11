@@ -1,7 +1,7 @@
 ---
-date: 2025-06-08T17:36:22-05:00
 draft: false
 title: "Homelab #5 - Kubernetes Cluster (App Bonanza!!!!!!)"
+tags: ["homelab", "kubernetes", "self-hosting", "containers"]
 ---
 
 Homelab Series:

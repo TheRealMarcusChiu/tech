@@ -1,7 +1,7 @@
 ---
-date: 2025-06-04T17:36:22-05:00
 draft: false
 title: "Homelab #2 - Proxmox Cluster"
+tags: ["homelab", "proxmox", "virtualization", "clustering"]
 ---
 
 Homelab Series:

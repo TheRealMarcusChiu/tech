@@ -1,7 +1,7 @@
 ---
-date: 2025-06-13T00:00:00-05:00
 draft: false
 title: "How to Install qBittorrent on Ubuntu Server 24.04"
+tags: ["linux", "ubuntu", "systemd", "self-hosting"]
 ---
 
 For some reason there is an issue with running qBittorrent as a SystemD service on Ubuntu Server 24.04. 

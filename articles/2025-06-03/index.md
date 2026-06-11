@@ -1,7 +1,7 @@
 ---
-date: 2025-06-03T17:36:22-05:00
 draft: false
 title: "Creating This Website"
+tags: ["web-development", "hugo", "static-site"]
 ---
 
 It's been almost 7 years since I've created this website, and it's time for an upgrade. 

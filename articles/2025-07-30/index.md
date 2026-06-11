@@ -1,7 +1,7 @@
 ---
-date: 2025-07-30T00:00:00-05:00
 draft: false
 title: "Spring Boot 3.5 Guides"
+tags: ["spring-boot", "java", "backend", "programming"]
 ---
 
 # Problem

@@ -1,7 +1,7 @@
 ---
-date: 2026-01-29T00:00:00-00:00
 draft: false
 title: "Adding Firewall to Proxmox LXC Containers"
+tags: ["homelab", "proxmox", "firewall", "security", "lxc"]
 ---
 
 To use the Proxmox firewall at the LXC container level, it must be enabled at multiple layers of the Proxmox stack. Firewall rules are evaluated top-down, so every required scope must be active for LXC-level rules to take effect.

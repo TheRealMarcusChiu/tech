@@ -1,7 +1,7 @@
 ---
-date: 2025-08-19T00:00:00-05:00
 draft: true
 title: "Shazam Theory #1 - FT DTFT DFT FFT STFT"
+tags: ["signal-processing", "fourier-transform", "mathematics", "audio"]
 ---
 
 # Problem

@@ -1,7 +1,7 @@
 ---
-date: 2025-08-18T00:00:00-05:00
 draft: false
 title: "I've Recreated Shazaam"
+tags: ["signal-processing", "audio", "web-development"]
 ---
 
 # Problem

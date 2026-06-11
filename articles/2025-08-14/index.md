@@ -1,7 +1,7 @@
 ---
-date: 2025-08-14T00:00:00-05:00
 draft: false
 title: "I've Built Tetris Using ASCII"
+tags: ["javascript", "game-development", "web-development"]
 ---
 
 I've first made tetris using [`<canvas>`](/tinkering/2025-08-07/)

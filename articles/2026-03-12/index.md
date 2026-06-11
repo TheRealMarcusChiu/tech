@@ -1,7 +1,7 @@
 ---
-date: 2026-03-12T00:00:00-00:00
 draft: false
 title: "OPNSense Firewal DNS Redirection"
+tags: ["opnsense", "networking", "dns", "firewall", "router"]
 ---
 
 This article goes over how to redirect port 53 to local DNS.

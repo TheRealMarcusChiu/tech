@@ -1,7 +1,7 @@
 ---
-date: 2025-08-07T00:00:00-05:00
 draft: false
 title: "I've Built Tetris Using ReactJS"
+tags: ["react", "javascript", "game-development", "web-development"]
 ---
 
 # Problem

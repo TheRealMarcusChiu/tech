@@ -1,7 +1,7 @@
 ---
-date: 2026-01-26T00:00:00-00:00
 draft: false
 title: "Simulating 100,000 Celestial Bodies"
+tags: ["algorithms", "simulation", "physics", "web-development"]
 ---
 
 [barnes-hut.marcuschiu.com](https://barnes-hut.marcuschiu.com/)
