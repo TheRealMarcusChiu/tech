@@ -10,15 +10,12 @@ export function serializeFrontmatter({ draft, title, tags, img, date }) {
   const t = Array.isArray(tags) ? tags : [];
   const lines = ['---'];
   lines.push('draft: ' + (isTrue(draft) ? 'true' : 'false'));
-  // Quote the title so it round-trips through parseFrontmatter (which strips
-  // only the outer quote, no unescaping). Default to double quotes to match the
-  // existing articles; fall back to single quotes when the title contains a ".
-  const t2 = String(title || '');
-  let titleVal;
-  if (!t2.includes('"')) titleVal = '"' + t2 + '"';
-  else if (!t2.includes("'")) titleVal = "'" + t2 + "'";
-  else titleVal = '"' + t2.replace(/"/g, '') + '"';
-  lines.push('title: ' + titleVal);
+  // Wrap the title in double quotes (matching the existing articles). This
+  // round-trips losslessly through parseFrontmatter, which strips only the
+  // outermost quote pair and never unescapes inner characters — so inner quotes
+  // of either kind survive verbatim. (Titles are single-line, so no escaping is
+  // needed beyond that.)
+  lines.push('title: "' + String(title || '') + '"');
   lines.push('tags: [' + t.map((x) => JSON.stringify(String(x))).join(', ') + ']');
   if (img) lines.push("img: '" + String(img) + "'");
   lines.push('date: ' + String(date || ''));

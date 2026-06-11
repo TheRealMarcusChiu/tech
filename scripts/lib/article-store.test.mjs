@@ -17,6 +17,13 @@ test('serializeFrontmatter emits parseable, ordered YAML-ish block', () => {
   assert.equal(parsed.date, '2026-06-11');
 });
 
+test('serializeFrontmatter round-trips titles with both quote kinds losslessly', () => {
+  for (const title of ['say "hi"', "both ' and \" quotes", '"leads', 'trails"', "It's fine"]) {
+    const block = serializeFrontmatter({ draft: false, title, tags: [], img: '', date: '2026-01-01' });
+    assert.equal(parseFrontmatter(block + '\n\nb\n').title, title);
+  }
+});
+
 test('serializeFrontmatter omits img when empty', () => {
   const block = serializeFrontmatter({ draft: false, title: 'T', tags: [], img: '', date: '2026-01-01' });
   assert.ok(!/img:/.test(block));
