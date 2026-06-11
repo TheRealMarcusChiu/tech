@@ -5,7 +5,7 @@ import { readFile, writeFile, readdir } from 'node:fs/promises';
 import { join, relative, sep } from 'node:path';
 
 export const stripFrontmatter = (t) =>
-  t.replace(/^﻿?---\s*\n[\s\S]*?\n---\s*\n?/, '').replace(/^\n+/, '');
+  t.replace(/^\uFEFF?---\s*\n[\s\S]*?\n---\s*\n?/, '').replace(/^\n+/, '');
 
 export const isAbsUrl = (u) =>
   /^(?:[a-z][a-z0-9+.-]*:|\/\/|\/|#|data:|mailto:)/i.test(String(u).trim());
@@ -20,7 +20,7 @@ export function rewriteRelativePaths(body, baseDir) {
 }
 
 export function parseFrontmatter(text) {
-  const m = /^﻿?---\s*\n([\s\S]*?)\n---\s*\n?/.exec(text);
+  const m = /^\uFEFF?---\s*\n([\s\S]*?)\n---\s*\n?/.exec(text);
   if (!m) return {};
   const data = {};
   for (const line of m[1].split('\n')) {
