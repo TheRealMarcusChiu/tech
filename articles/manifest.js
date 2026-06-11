@@ -12,7 +12,7 @@ window.ARTICLES = [
       "firewall",
       "router"
     ],
-    "img": ""
+    "img": "2026-03-12/cover.png"
   },
   {
     "slug": "2026-01-31--Disable-SSH-Password-Login-in-Proxmox-LXC-Containers",
