@@ -97,9 +97,20 @@ export function createAdminServer(root) {
   }
 
   return createServer((req, res) => {
-    const url = new URL(req.url, 'http://127.0.0.1');
-    if (url.pathname.startsWith('/api/')) handleApi(req, res, url);
-    else handleStatic(req, res, url);
+    // new URL throws synchronously on a malformed request line — don't let that
+    // crash the long-running dev server.
+    let url;
+    try { url = new URL(req.url ?? '/', 'http://127.0.0.1'); }
+    catch { res.writeHead(400); res.end('bad request'); return; }
+    const done = url.pathname.startsWith('/api/')
+      ? handleApi(req, res, url)
+      : handleStatic(req, res, url);
+    // Backstop: both handlers catch internally, but guard against any future
+    // path that throws before its own try/catch.
+    done.catch((e) => {
+      if (!res.headersSent) sendJson(res, 500, { error: String((e && e.message) || e) });
+      else res.end();
+    });
   });
 }
 

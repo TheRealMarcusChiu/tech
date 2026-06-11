@@ -4,6 +4,7 @@ import assert from 'node:assert/strict';
 import { mkdtemp, mkdir, writeFile, readFile, stat } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
+import { connect } from 'node:net';
 import { createAdminServer } from '../admin-server.mjs';
 
 async function withServer(run) {
@@ -23,6 +24,26 @@ test('GET / serves admin.html', async () => {
     const r = await fetch(base + '/');
     assert.equal(r.status, 200);
     assert.match(await r.text(), /admin/);
+  });
+});
+
+test('a malformed request line gets 400 and does not crash the server', async () => {
+  await withServer(async (base) => {
+    const port = Number(new URL(base).port);
+    // Send an absolute-form target that makes new URL() throw, over a raw socket.
+    const status = await new Promise((resolve, reject) => {
+      const sock = connect(port, '127.0.0.1', () => {
+        sock.write('GET http://[ HTTP/1.1\r\nHost: x\r\nConnection: close\r\n\r\n');
+      });
+      let buf = '';
+      sock.on('data', (d) => { buf += d.toString(); });
+      sock.on('end', () => resolve(buf.split(' ')[1]));
+      sock.on('error', reject);
+    });
+    assert.equal(status, '400');
+    // Server is still alive for normal requests.
+    const r = await fetch(base + '/api/articles');
+    assert.equal(r.status, 200);
   });
 });
 
