@@ -62,6 +62,23 @@ node scripts/generate-manifest.mjs
 This scans `articles/`, writes `articles/manifest.js` (the listing), and writes a
 sibling `index.js` next to each `index.md`. Both are generated — don't edit them by hand.
 
+## Admin (local CRUD)
+
+A local-only tool for managing articles without editing files by hand. It is a
+dev tool — never deploy the server.
+
+```sh
+node scripts/admin-server.mjs   # then open http://127.0.0.1:8787/
+```
+
+`admin.html` lists every article (including drafts), and lets you create, edit,
+and delete posts: frontmatter fields (title, date, draft, tags, cover image), a
+raw/rendered Markdown editor, and image uploads into the article's `assets/`
+folder. New posts default to `draft: true`. Changing a post's date renames its
+folder; if the date is already taken the folder is auto-suffixed (`-2`, `-3`).
+Every change re-runs the manifest build automatically, so the static site stays
+in sync. The server requires no npm dependencies.
+
 ## Deploy
 
 Serve the directory as static files. No server-side code is required.

@@ -12,7 +12,7 @@ window.ARTICLES = [
       "firewall",
       "router"
     ],
-    "img": "2026-03-12/cover.png"
+    "img": "2026-03-12/assets/cover.png"
   },
   {
     "slug": "2026-01-31--Disable-SSH-Password-Login-in-Proxmox-LXC-Containers",
@@ -26,7 +26,7 @@ window.ARTICLES = [
       "security",
       "lxc"
     ],
-    "img": "2026-01-31/cover.png"
+    "img": "2026-01-31/assets/cover.png"
   },
   {
     "slug": "2026-01-30--How-to-Uninstall-Fedora-Asahi-Linux-from-an-M1-MacBook-Pro",
@@ -38,7 +38,7 @@ window.ARTICLES = [
       "linux",
       "apple-silicon"
     ],
-    "img": "2026-01-30/cover.png"
+    "img": "2026-01-30/assets/cover.png"
   },
   {
     "slug": "2026-01-29--Adding-Firewall-to-Proxmox-LXC-Containers",
@@ -52,7 +52,7 @@ window.ARTICLES = [
       "security",
       "lxc"
     ],
-    "img": "2026-01-29/cover.png"
+    "img": "2026-01-29/assets/cover.png"
   },
   {
     "slug": "2026-01-28--Creating-a-Discord-AI-Agent-with-n8n",
@@ -66,7 +66,7 @@ window.ARTICLES = [
       "automation",
       "chatbot"
     ],
-    "img": "2026-01-28/cover.png"
+    "img": "2026-01-28/assets/cover.png"
   },
   {
     "slug": "2026-01-26--Simulating-100%2C000-Celestial-Bodies",
@@ -79,7 +79,7 @@ window.ARTICLES = [
       "physics",
       "web-development"
     ],
-    "img": "2026-01-26/cover.png"
+    "img": "2026-01-26/assets/cover.png"
   },
   {
     "slug": "2026-01-24--Coding-AI-Coding-Agent",
@@ -93,7 +93,7 @@ window.ARTICLES = [
       "python",
       "agents"
     ],
-    "img": "2026-01-24/cover.png"
+    "img": "2026-01-24/assets/cover.png"
   },
   {
     "slug": "2025-12-03--How-to-Setup-a-Bitcoin-Pruned-Node-Over-TOR-on-Ubuntu",
@@ -107,7 +107,7 @@ window.ARTICLES = [
       "self-hosting",
       "privacy"
     ],
-    "img": "2025-12-03/cover.png"
+    "img": "2025-12-03/assets/cover.png"
   },
   {
     "slug": "2025-12-02--NFS-Client-on-Proxmox-LXC",
@@ -121,7 +121,7 @@ window.ARTICLES = [
       "lxc",
       "storage"
     ],
-    "img": "2025-12-02/cover.png"
+    "img": "2025-12-02/assets/cover.png"
   },
   {
     "slug": "2025-12-01--How-to-Enable-IOMMU-on-ASROCK-ROMED8-2T",
@@ -134,7 +134,7 @@ window.ARTICLES = [
       "bios",
       "virtualization"
     ],
-    "img": "2025-12-01/cover.png"
+    "img": "2025-12-01/assets/cover.png"
   },
   {
     "slug": "2025-09-18--I've-3D-Scanned-my-Room-(3D-Gaussian-Splatting)",
@@ -146,7 +146,7 @@ window.ARTICLES = [
       "gaussian-splatting",
       "computer-vision"
     ],
-    "img": "2025-09-18/cover.png"
+    "img": "2025-09-18/assets/cover.png"
   },
   {
     "slug": "2025-09-17--Markov-Chain-Monte-Carlo-(MCMC)",
@@ -159,7 +159,7 @@ window.ARTICLES = [
       "mcmc",
       "algorithms"
     ],
-    "img": "2025-09-17/cover.png"
+    "img": "2025-09-17/assets/cover.png"
   },
   {
     "slug": "2025-09-01--Vizualizing-Neural-Networks-(Interactive-Tool)",
@@ -172,7 +172,7 @@ window.ARTICLES = [
       "visualization",
       "web-development"
     ],
-    "img": "2025-09-01/cover.png"
+    "img": "2025-09-01/assets/cover.png"
   },
   {
     "slug": "2025-08-21--Shazam-Theory-%231---FT-DTFT-DFT-FFT-STFT",
@@ -185,7 +185,7 @@ window.ARTICLES = [
       "mathematics",
       "audio"
     ],
-    "img": "2025-08-21/cover.jpeg"
+    "img": "2025-08-21/assets/cover.jpeg"
   },
   {
     "slug": "2025-08-18--I've-Recreated-Shazaam",
@@ -197,7 +197,7 @@ window.ARTICLES = [
       "audio",
       "web-development"
     ],
-    "img": "2025-08-18/cover.png"
+    "img": "2025-08-18/assets/cover.png"
   },
   {
     "slug": "2025-08-17--Promox-Gitea---Change-HTTP-Port-to-80",
@@ -210,7 +210,7 @@ window.ARTICLES = [
       "gitea",
       "self-hosting"
     ],
-    "img": "2025-08-17/cover.png"
+    "img": "2025-08-17/assets/cover.png"
   },
   {
     "slug": "2025-08-16--Alert-Me-on-Disk-Full--(Telegraf-%2B-InfluxDB-%2B-Grafana)",
@@ -224,7 +224,7 @@ window.ARTICLES = [
       "influxdb",
       "telegraf"
     ],
-    "img": "2025-08-16/cover.png"
+    "img": "2025-08-16/assets/cover.png"
   },
   {
     "slug": "2025-08-15--The-Law-of-First-Mention",
@@ -236,7 +236,7 @@ window.ARTICLES = [
       "web-development",
       "javascript"
     ],
-    "img": "2025-08-15/cover.png"
+    "img": "2025-08-15/assets/cover.png"
   },
   {
     "slug": "2025-08-14--I've-Built-Tetris-Using-ASCII",
@@ -248,7 +248,7 @@ window.ARTICLES = [
       "game-development",
       "web-development"
     ],
-    "img": "2025-08-14/cover.png"
+    "img": "2025-08-14/assets/cover.png"
   },
   {
     "slug": "2025-08-13--Alert-me-on-High-Temps-(Telegraf-%2B-InfluxDB-%2B-Grafana)",
@@ -262,7 +262,7 @@ window.ARTICLES = [
       "influxdb",
       "telegraf"
     ],
-    "img": "2025-08-13/cover.png"
+    "img": "2025-08-13/assets/cover.png"
   },
   {
     "slug": "2025-08-11--I've-Built-Tetris-Using-Unicode",
@@ -274,7 +274,7 @@ window.ARTICLES = [
       "game-development",
       "web-development"
     ],
-    "img": "2025-08-11/cover.png"
+    "img": "2025-08-11/assets/cover.png"
   },
   {
     "slug": "2025-08-08--Locked-out-of-my-Router-(OPNsense)",
@@ -287,7 +287,7 @@ window.ARTICLES = [
       "troubleshooting",
       "router"
     ],
-    "img": "2025-08-08/cover.png"
+    "img": "2025-08-08/assets/cover.png"
   },
   {
     "slug": "2025-08-07--I've-Built-Tetris-Using-ReactJS",
@@ -300,7 +300,7 @@ window.ARTICLES = [
       "game-development",
       "web-development"
     ],
-    "img": "2025-08-07/cover.png"
+    "img": "2025-08-07/assets/cover.png"
   },
   {
     "slug": "2025-07-30--Spring-Boot-3.5-Guides",
@@ -313,7 +313,7 @@ window.ARTICLES = [
       "backend",
       "programming"
     ],
-    "img": "2025-07-30/cover.png"
+    "img": "2025-07-30/assets/cover.png"
   },
   {
     "slug": "2025-07-16--Network-File-System-(NFS)",
@@ -326,7 +326,7 @@ window.ARTICLES = [
       "networking",
       "storage"
     ],
-    "img": "2025-07-16/cover.png"
+    "img": "2025-07-16/assets/cover.png"
   },
   {
     "slug": "2025-06-21--Homelab-%238---Wake-on-LAN-(WoL)-Proxmox",
@@ -339,7 +339,7 @@ window.ARTICLES = [
       "networking",
       "wake-on-lan"
     ],
-    "img": "2025-06-21/cover.png"
+    "img": "2025-06-21/assets/cover.png"
   },
   {
     "slug": "2025-06-14--Permutation-vs-Combination",
@@ -350,7 +350,7 @@ window.ARTICLES = [
       "mathematics",
       "combinatorics"
     ],
-    "img": "2025-06-14/cover.png"
+    "img": "2025-06-14/assets/cover.png"
   },
   {
     "slug": "2025-06-13--How-to-Install-qBittorrent-on-Ubuntu-Server-24.04",
@@ -363,7 +363,7 @@ window.ARTICLES = [
       "systemd",
       "self-hosting"
     ],
-    "img": "2025-06-13/cover.png"
+    "img": "2025-06-13/assets/cover.png"
   },
   {
     "slug": "2025-06-12--Making-This-Website-HTTPS",
@@ -377,7 +377,7 @@ window.ARTICLES = [
       "security",
       "web-development"
     ],
-    "img": "2025-06-12/cover.png"
+    "img": "2025-06-12/assets/cover.png"
   },
   {
     "slug": "2025-06-11--Homelab-%237---Kasm",
@@ -390,7 +390,7 @@ window.ARTICLES = [
       "remote-desktop",
       "self-hosting"
     ],
-    "img": "2025-06-11/cover.png"
+    "img": "2025-06-11/assets/cover.png"
   },
   {
     "slug": "2025-06-10--Homelab-%236---Fixing-Homebox-Perpetual-Logouts",
@@ -403,7 +403,7 @@ window.ARTICLES = [
       "nginx",
       "troubleshooting"
     ],
-    "img": "2025-06-10/cover.png"
+    "img": "2025-06-10/assets/cover.png"
   },
   {
     "slug": "2025-06-08--Homelab-%235---Kubernetes-Cluster-(App-Bonanza!!!!!!)",
@@ -416,7 +416,7 @@ window.ARTICLES = [
       "self-hosting",
       "containers"
     ],
-    "img": "2025-06-08/cover.png"
+    "img": "2025-06-08/assets/cover.png"
   },
   {
     "slug": "2025-06-06--Homelab-%234---Kubernetes-Cluster-(Infrastructure-Setup)",
@@ -430,7 +430,7 @@ window.ARTICLES = [
       "networking",
       "storage"
     ],
-    "img": "2025-06-06/cover.png"
+    "img": "2025-06-06/assets/cover.png"
   },
   {
     "slug": "2025-06-05--Homelab-%233---Kubernetes-Cluster-(Initial-Setup)",
@@ -443,7 +443,7 @@ window.ARTICLES = [
       "proxmox",
       "containers"
     ],
-    "img": "2025-06-05/cover.png"
+    "img": "2025-06-05/assets/cover.png"
   },
   {
     "slug": "2025-06-04--Homelab-%232---Proxmox-Cluster",
@@ -456,7 +456,7 @@ window.ARTICLES = [
       "virtualization",
       "clustering"
     ],
-    "img": "2025-06-04/cover.jpg"
+    "img": "2025-06-04/assets/cover.jpg"
   },
   {
     "slug": "2025-06-03--Creating-This-Website",
@@ -468,7 +468,7 @@ window.ARTICLES = [
       "hugo",
       "static-site"
     ],
-    "img": "2025-06-03/cover.jpeg"
+    "img": "2025-06-03/assets/cover.jpeg"
   },
   {
     "slug": "2024-08-26--Homelab-%231---Humble-Beginnings",
@@ -481,6 +481,6 @@ window.ARTICLES = [
       "networking",
       "server-rack"
     ],
-    "img": "2024-08-26/cover.jpeg"
+    "img": "2024-08-26/assets/cover.jpeg"
   }
 ];

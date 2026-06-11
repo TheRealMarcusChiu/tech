@@ -2,7 +2,7 @@
 draft: false
 title: "Homelab #1 - Humble Beginnings"
 tags: ["homelab", "hardware", "networking", "server-rack"]
-img: 'cover.jpeg'
+img: 'assets/cover.jpeg'
 ---
 
 Homelab Series:

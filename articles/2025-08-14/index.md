@@ -2,7 +2,7 @@
 draft: false
 title: "I've Built Tetris Using ASCII"
 tags: ["javascript", "game-development", "web-development"]
-img: 'cover.png'
+img: 'assets/cover.png'
 ---
 
 I've first made tetris using [`<canvas>`](/tinkering/2025-08-07/)

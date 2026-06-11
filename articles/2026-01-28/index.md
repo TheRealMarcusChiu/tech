@@ -2,7 +2,7 @@
 draft: false
 title: "Creating a Discord AI Agent with n8n"
 tags: ["ai", "n8n", "discord", "automation", "chatbot"]
-img: 'cover.png'
+img: 'assets/cover.png'
 ---
 
 [![discord-n8n-ai-chatbot](assets/discord-n8n-ai-chatbot.png)](assets/discord-n8n-ai-chatbot.png)

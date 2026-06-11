@@ -2,7 +2,7 @@
 draft: false
 title: "Creating This Website"
 tags: ["web-development", "hugo", "static-site"]
-img: 'cover.jpeg'
+img: 'assets/cover.jpeg'
 ---
 
 It's been almost 7 years since I've created this website, and it's time for an upgrade. 

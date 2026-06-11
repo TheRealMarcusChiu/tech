@@ -2,7 +2,7 @@
 draft: false
 title: "The Law of First Mention"
 tags: ["bible", "web-development", "javascript"]
-img: 'cover.png'
+img: 'assets/cover.png'
 ---
 
 # Problem
