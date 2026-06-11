@@ -2,7 +2,7 @@
 draft: false
 title: "Network File System (NFS)"
 tags: ["linux", "nfs", "networking", "storage"]
-img: 'cover.png'
+img: 'assets/cover.png'
 ---
 
 # Problem

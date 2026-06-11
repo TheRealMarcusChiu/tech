@@ -2,7 +2,7 @@
 draft: false
 title: "Shazam Theory #1 - FT DTFT DFT FFT STFT"
 tags: ["signal-processing", "fourier-transform", "mathematics", "audio"]
-img: 'cover.jpeg'
+img: 'assets/cover.jpeg'
 ---
 
 In this article, we will take a look at some of the most common signal-processing terms.

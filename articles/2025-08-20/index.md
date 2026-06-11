@@ -2,7 +2,7 @@
 draft: true
 title: "Shazam Theory #1 - FT DTFT DFT FFT STFT"
 tags: ["signal-processing", "fourier-transform", "mathematics", "audio"]
-img: 'cover.png'
+img: 'assets/cover.png'
 ---
 
 # Problem

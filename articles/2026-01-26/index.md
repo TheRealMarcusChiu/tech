@@ -2,7 +2,7 @@
 draft: false
 title: "Simulating 100,000 Celestial Bodies"
 tags: ["algorithms", "simulation", "physics", "web-development"]
-img: 'cover.png'
+img: 'assets/cover.png'
 ---
 
 [barnes-hut.marcuschiu.com](https://barnes-hut.marcuschiu.com/)

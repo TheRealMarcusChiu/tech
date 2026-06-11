@@ -2,7 +2,7 @@
 draft: false
 title: "I've Built Tetris Using Unicode"
 tags: ["javascript", "game-development", "web-development"]
-img: 'cover.png'
+img: 'assets/cover.png'
 ---
 
 # Problem

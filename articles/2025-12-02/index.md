@@ -2,7 +2,7 @@
 draft: false
 title: "NFS Client on Proxmox LXC"
 tags: ["homelab", "proxmox", "nfs", "lxc", "storage"]
-img: 'cover.png'
+img: 'assets/cover.png'
 ---
 
 # Problem

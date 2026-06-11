@@ -2,7 +2,7 @@
 draft: false
 title: "Spring Boot 3.5 Guides"
 tags: ["spring-boot", "java", "backend", "programming"]
-img: 'cover.png'
+img: 'assets/cover.png'
 ---
 
 # Problem

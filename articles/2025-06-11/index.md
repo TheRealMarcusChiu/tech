@@ -2,7 +2,7 @@
 draft: false
 title: "Homelab #7 - Kasm"
 tags: ["homelab", "kasm", "remote-desktop", "self-hosting"]
-img: 'cover.png'
+img: 'assets/cover.png'
 ---
 
 **What is Kasm?**

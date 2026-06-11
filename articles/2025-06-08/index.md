@@ -2,7 +2,7 @@
 draft: false
 title: "Homelab #5 - Kubernetes Cluster (App Bonanza!!!!!!)"
 tags: ["homelab", "kubernetes", "self-hosting", "containers"]
-img: 'cover.png'
+img: 'assets/cover.png'
 ---
 
 Homelab Series:

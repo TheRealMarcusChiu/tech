@@ -2,7 +2,7 @@
 draft: false
 title: "Homelab #3 - Kubernetes Cluster (Initial Setup)"
 tags: ["homelab", "kubernetes", "proxmox", "containers"]
-img: 'cover.png'
+img: 'assets/cover.png'
 ---
 
 Homelab Series:

@@ -2,7 +2,7 @@
 draft: false
 title: "Alert Me on Disk Full  (Telegraf + InfluxDB + Grafana)"
 tags: ["homelab", "monitoring", "grafana", "influxdb", "telegraf"]
-img: 'cover.png'
+img: 'assets/cover.png'
 ---
 
 # Problem
