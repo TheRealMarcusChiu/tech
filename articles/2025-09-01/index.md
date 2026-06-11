@@ -2,6 +2,7 @@
 draft: false
 title: "Vizualizing Neural Networks (Interactive Tool)"
 tags: ["machine-learning", "neural-networks", "visualization", "web-development"]
+img: 'cover.png'
 ---
 
 # Problem

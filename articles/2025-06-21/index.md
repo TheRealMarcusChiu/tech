@@ -2,6 +2,7 @@
 draft: false
 title: "Homelab #8 - Wake on LAN (WoL) Proxmox"
 tags: ["homelab", "proxmox", "networking", "wake-on-lan"]
+img: 'cover.png'
 ---
 
 It's been a couple of years since I've heard of Wake on LAN (WoL) and today I finally decided to set it up.

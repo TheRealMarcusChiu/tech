@@ -2,6 +2,7 @@
 draft: false
 title: "Coding AI Coding Agent"
 tags: ["ai", "llm", "claude", "python", "agents"]
+img: 'cover.png'
 ---
 
 AI/LLM is not just for answering questions or generating text - it can also be a powerful **coding assistant**, capable of reading files, running commands, editing code, and even searching codebases. In this post, we explore the evolution of a **coding AI agent** using the Anthropic Claude API, showing six stages of building a progressively smarter coding assistant.

@@ -2,6 +2,7 @@
 draft: false
 title: "Alert me on High Temps (Telegraf + InfluxDB + Grafana)"
 tags: ["homelab", "monitoring", "grafana", "influxdb", "telegraf"]
+img: 'cover.png'
 ---
 
 # Problem

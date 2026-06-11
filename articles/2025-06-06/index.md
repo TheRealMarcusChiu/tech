@@ -2,6 +2,7 @@
 draft: false
 title: "Homelab #4 - Kubernetes Cluster (Infrastructure Setup)"
 tags: ["homelab", "kubernetes", "helm", "networking", "storage"]
+img: 'cover.png'
 ---
 
 Homelab Series:

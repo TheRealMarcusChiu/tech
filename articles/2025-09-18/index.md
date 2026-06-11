@@ -2,6 +2,7 @@
 draft: false
 title: "I've 3D Scanned my Room (3D Gaussian Splatting)"
 tags: ["3d-reconstruction", "gaussian-splatting", "computer-vision"]
+img: 'cover.png'
 ---
 
 # Problem

@@ -2,6 +2,7 @@
 draft: false
 title: "I've Built Tetris Using ReactJS"
 tags: ["react", "javascript", "game-development", "web-development"]
+img: 'cover.png'
 ---
 
 # Problem

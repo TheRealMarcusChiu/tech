@@ -2,6 +2,7 @@
 draft: false
 title: "I've Recreated Shazaam"
 tags: ["signal-processing", "audio", "web-development"]
+img: 'cover.png'
 ---
 
 # Problem

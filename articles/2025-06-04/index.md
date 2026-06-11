@@ -2,6 +2,7 @@
 draft: false
 title: "Homelab #2 - Proxmox Cluster"
 tags: ["homelab", "proxmox", "virtualization", "clustering"]
+img: 'cover.jpg'
 ---
 
 Homelab Series:

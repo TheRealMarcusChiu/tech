@@ -2,6 +2,7 @@
 draft: false
 title: "Making This Website HTTPS"
 tags: ["ssl", "nginx", "lets-encrypt", "security", "web-development"]
+img: 'cover.png'
 ---
 
 For the longest time this site has been in HTTP mode. It's time to HTTPS it.
