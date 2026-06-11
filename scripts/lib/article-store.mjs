@@ -96,3 +96,51 @@ export async function allTags(articlesDir) {
   for (const a of await listArticles(articlesDir)) a.tags.forEach((t) => set.add(t));
   return [...set].sort((a, b) => a.localeCompare(b));
 }
+
+// Create or update an article. Returns the final folder name.
+export async function saveArticle(articlesDir, { originalDir, date, title, draft, tags, img, body }) {
+  const md = buildMarkdown({ draft, title, tags, img, date }, body);
+  const taken = new Set(await listDirNames(articlesDir));
+
+  let targetDir;
+  if (!originalDir) {
+    targetDir = nextFreeDir(date, taken);
+  } else if (dirDate(originalDir) === date) {
+    targetDir = originalDir; // date unchanged → write in place
+  } else {
+    taken.delete(originalDir);
+    targetDir = nextFreeDir(date, taken);
+  }
+
+  if (originalDir && targetDir !== originalDir) {
+    await rename(join(articlesDir, originalDir), join(articlesDir, targetDir));
+  }
+  await mkdir(join(articlesDir, targetDir), { recursive: true });
+  await writeFile(join(articlesDir, targetDir, 'index.md'), md, 'utf8');
+  return targetDir;
+}
+
+export async function deleteArticle(articlesDir, dir) {
+  await rm(join(articlesDir, dir), { recursive: true, force: true });
+}
+
+// Save an uploaded image into <dir>/assets/, returning its path relative to the
+// article folder (e.g. "assets/diagram.png"). Names are sanitized and de-duped.
+export async function saveUpload(articlesDir, dir, filename, buffer) {
+  const assetsDir = join(articlesDir, dir, 'assets');
+  await mkdir(assetsDir, { recursive: true });
+
+  const safe = String(filename || 'image').replace(/[^\w.\-]+/g, '_').replace(/^\.+/, '') || 'image';
+  const dot = safe.lastIndexOf('.');
+  const base = dot > 0 ? safe.slice(0, dot) : safe;
+  const ext = dot > 0 ? safe.slice(dot) : '';
+
+  let name = base + ext;
+  let n = 2;
+  while (true) {
+    try { await stat(join(assetsDir, name)); name = base + '-' + n++ + ext; }
+    catch { break; }
+  }
+  await writeFile(join(assetsDir, name), buffer);
+  return 'assets/' + name;
+}
