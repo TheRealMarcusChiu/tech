@@ -27,3 +27,16 @@ export function buildMarkdown(fm, body) {
   const clean = String(body || '').replace(/^\s*\n+/, '').replace(/\s+$/, '');
   return serializeFrontmatter(fm) + '\n\n' + clean + '\n';
 }
+
+export function dirDate(dir) {
+  const m = /^(\d{4}-\d{2}-\d{2})/.exec(String(dir || ''));
+  return m ? m[1] : '';
+}
+
+// Pick the first free folder name for a date: base, then base-2, base-3, …
+export function nextFreeDir(date, takenSet) {
+  if (!takenSet.has(date)) return date;
+  let n = 2;
+  while (takenSet.has(date + '-' + n)) n++;
+  return date + '-' + n;
+}

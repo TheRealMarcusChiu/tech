@@ -2,6 +2,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { serializeFrontmatter, buildMarkdown } from './article-store.mjs';
+import { dirDate, nextFreeDir } from './article-store.mjs';
 import { parseFrontmatter, stripFrontmatter } from './manifest.mjs';
 
 test('serializeFrontmatter emits parseable, ordered YAML-ish block', () => {
@@ -34,4 +35,19 @@ test('buildMarkdown joins frontmatter and body with a blank line and trailing ne
   const md = buildMarkdown({ draft: true, title: 'T', tags: [], img: '', date: '2026-01-01' }, '  \n\nBody text\n\n');
   assert.match(md, /---\n\nBody text\n$/);
   assert.equal(stripFrontmatter(md), 'Body text\n');
+});
+
+test('dirDate extracts the YYYY-MM-DD prefix', () => {
+  assert.equal(dirDate('2026-05-18'), '2026-05-18');
+  assert.equal(dirDate('2026-05-18-2'), '2026-05-18');
+  assert.equal(dirDate('nope'), '');
+});
+
+test('nextFreeDir returns the base date when free', () => {
+  assert.equal(nextFreeDir('2026-05-18', new Set()), '2026-05-18');
+});
+
+test('nextFreeDir suffixes when the base (and suffixes) are taken', () => {
+  assert.equal(nextFreeDir('2026-05-18', new Set(['2026-05-18'])), '2026-05-18-2');
+  assert.equal(nextFreeDir('2026-05-18', new Set(['2026-05-18', '2026-05-18-2'])), '2026-05-18-3');
 });
