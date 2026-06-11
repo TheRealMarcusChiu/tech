@@ -185,7 +185,7 @@ window.ARTICLES = [
       "mathematics",
       "audio"
     ],
-    "img": "2025-08-21/cover.png"
+    "img": "2025-08-21/cover.jpeg"
   },
   {
     "slug": "2025-08-18--I've-Recreated-Shazaam",
