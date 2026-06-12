@@ -3,9 +3,10 @@ draft: false
 title: "OPNSense Firewal DNS Redirection"
 tags: ["opnsense", "networking", "dns", "firewall", "router"]
 img: 'assets/cover.png'
+date: 2026-03-12
 ---
 
-This article goes over how to redirect port 53 to local DNS.
+This article goes over how to redirect port 53 to local DNS (do with caution).
 
 # 1. Firewall → Rules → LAN (optional)
 
