@@ -8,8 +8,6 @@ date: 2026-03-12
 
 This article goes over how to redirect port 53 to local DNS (do with caution).
 
-TEST
-
 # 1\. Firewall → Rules → LAN (optional)
 
 Allow DNS requests to your local DNS:
