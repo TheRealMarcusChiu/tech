@@ -19,7 +19,7 @@ And so I did.
 
 [git.marcuschiu.com/the-law-of-first-mention](https://git.marcuschiu.com/the-law-of-first-mention/)
 
-[![alt](assets/1.jpeg)](https://https://git.marcuschiu.com/the-law-of-first-mention/)
+[![alt](assets/1.jpeg)](https://git.marcuschiu.com/the-law-of-first-mention/)
 
 # How it was Built
 
