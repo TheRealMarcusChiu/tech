@@ -3,6 +3,7 @@ draft: false
 title: "I've 3D Scanned my Room (3D Gaussian Splatting)"
 tags: ["3d-reconstruction", "gaussian-splatting", "computer-vision"]
 img: 'assets/cover.png'
+date: 2025-09-18
 ---
 
 # Problem
@@ -15,9 +16,9 @@ Quite naturally, my curious self wanted to take a look into and create one mysel
 # Solution
 
 After a couple of days of head scratching, 
-I've finally did it and created a 3D model of my room: [my-room.marcuschiu.com](https://my-room.marcuschiu.com)
+I've finally did it and created a 3D model of my room: [git.marcuschiu.com/my-room-in-3d](https://git.marcuschiu.com/my-room-in-3d)
 
-[![My 3DGS Room](assets/my-room.png)](https://my-room.marcuschiu.com)
+[![My 3DGS Room](assets/my-room.png)](https://git.marcuschiu.com/my-room-in-3d)
 
 # How it's Done
 
@@ -169,4 +170,5 @@ See [HTML templates](https://github.com/TheRealMarcusChiu/3dgs-playcanvas-exampl
 
 # Code Base
 
-https://github.com/TheRealMarcusChiu/3dgs-playcanvas-examples/tree/master
+- https://github.com/TheRealMarcusChiu/3dgs-playcanvas-examples/tree/master
+- https://github.com/TheRealMarcusChiu/my-room-in-3d
