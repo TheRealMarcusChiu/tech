@@ -3,6 +3,7 @@ draft: false
 title: "I've Built Tetris Using ReactJS"
 tags: ["react", "javascript", "game-development", "web-development"]
 img: 'assets/cover.png'
+date: 2025-08-07
 ---
 
 # Problem
@@ -19,9 +20,9 @@ I've spent the past 2 working days going through the ReactJS tutorials
 Next, I've decided to build a Tetris game using ReactJS.
 However, I've ended up using a bunch more plain JavaScript lol.
 
-- [tetris.marcuschiu.com](https://tetris.marcuschiu.com)
+- [git.marcuschiu.com/tetris-canvas](https://git.marcuschiu.com/tetris-canvas)
 
-[![alt](assets/tetris.jpeg)](https://tetris.marcuschiu.com)
+[![alt](assets/tetris.jpeg)](https://git.marcuschiu.com/tetris-canvas)
 
 # How I Built it
 
