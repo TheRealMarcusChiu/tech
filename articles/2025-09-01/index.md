@@ -3,6 +3,7 @@ draft: false
 title: "Vizualizing Neural Networks (Interactive Tool)"
 tags: ["machine-learning", "neural-networks", "visualization", "web-development"]
 img: 'assets/cover.png'
+date: 2025-09-01
 ---
 
 # Problem
@@ -13,6 +14,6 @@ I've always wanted to create an interactive tool to visualize what's happening w
 
 And so I did:
 
-- [visualizing-neural-networks.marcuschiu.com](https://visualizing-neural-networks.marcuschiu.com)
+- [git.marcuschiu.com/visualizing-neural-networks](https://git.marcuschiu.com/visualizing-neural-networks/)
 
-[![alt](assets/1.jpeg)](https://visualizing-neural-networks.marcuschiu.com)
+[![alt](assets/1.jpeg)](https://git.marcuschiu.com/visualizing-neural-networks/)
