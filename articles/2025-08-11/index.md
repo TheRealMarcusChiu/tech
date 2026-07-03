@@ -3,6 +3,7 @@ draft: false
 title: "I've Built Tetris Using Unicode"
 tags: ["javascript", "game-development", "web-development"]
 img: 'assets/cover.png'
+date: 2025-08-11
 ---
 
 # Problem
@@ -84,6 +85,6 @@ This pretty much sums up building a text-based Tetris.
 
 Here's what it looks like:
 
-- [tetris-text.marcuschiu.com](https://tetris-text.marcuschiu.com)
+- [git.marcuschiu.com/tetris-unicode](https://git.marcuschiu.com/tetris-unicode)
 
-[![alt](assets/1.jpeg)](https://tetris-text.marcuschiu.com)
+[![alt](assets/1.jpeg)](https://git.marcuschiu.com/tetris-unicode)
