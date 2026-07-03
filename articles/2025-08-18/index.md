@@ -3,6 +3,7 @@ draft: false
 title: "I've Recreated Shazaam"
 tags: ["signal-processing", "audio", "web-development"]
 img: 'assets/cover.png'
+date: 2025-08-18
 ---
 
 # Problem
@@ -13,9 +14,6 @@ I wanna recreate Shazam :(
 
 And so I did. Here it is :D
 
-- [shazam.marcuschiu.com](https://shazam.marcuschiu.com)
+- [git.marcuschiu.com/shazaam](https://git.marcuschiu.com/shazaam)
 
-[![alt](assets/1.jpeg)](https://shazam.marcuschiu.com)
-
-
-
+[![alt](assets/1.jpeg)](https://git.marcuschiu.com/shazaam)
