@@ -6,8 +6,8 @@ img: 'assets/cover.png'
 date: 2025-08-14
 ---
 
-I've first made tetris using [`<canvas>`](/tinkering/2025-08-07/)
-then also in [Unicode](/tinkering/2025-08-11/) (i.e. 🟧🟪🟥🟦🟨🟩).
+I've first made tetris using [`<canvas>`](/tech/?slug=2025-08-07--I%27ve-Built-Tetris-Using-ReactJS)
+then also in [Unicode](/tech/?slug=2025-08-11--I%27ve-Built-Tetris-Using-Unicode) (i.e. 🟧🟪🟥🟦🟨🟩).
 
 So late at night, I've decided to make tetris again using ASCII characters.
 
