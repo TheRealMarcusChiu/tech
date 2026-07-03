@@ -3,11 +3,12 @@ draft: false
 title: "Simulating 100,000 Celestial Bodies"
 tags: ["algorithms", "simulation", "physics", "web-development"]
 img: 'assets/cover.png'
+date: 2026-01-26
 ---
 
-[barnes-hut.marcuschiu.com](https://barnes-hut.marcuschiu.com/)
+[git.marcuschiu.com/barnes-hut-algorithm](https://git.marcuschiu.com/barnes-hut-algorithm)
 
-[![barnes-hut-simulator](assets/simulator.png)](https://barnes-hut.marcuschiu.com)
+[![barnes-hut-simulator](assets/simulator.png)](https://git.marcuschiu.com/barnes-hut-algorithm)
 
 Simulating gravitational interactions between many bodies can get very slow. If you calculate the force between every pair of bodies, the number of computations grows quadratically as you add more bodies. That’s where the Barnes-Hut algorithm comes in—a clever way to speed things up.
 
