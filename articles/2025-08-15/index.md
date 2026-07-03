@@ -3,6 +3,7 @@ draft: false
 title: "The Law of First Mention"
 tags: ["bible", "web-development", "javascript"]
 img: 'assets/cover.png'
+date: 2025-08-15
 ---
 
 # Problem
@@ -16,9 +17,9 @@ Why not create an app for that?
 
 And so I did.
 
-[first-mention.marcuschiu.com](https://first-mention.marcuschiu.com)
+[git.marcuschiu.com/the-law-of-first-mention](https://git.marcuschiu.com/the-law-of-first-mention/)
 
-[![alt](assets/1.jpeg)](https://first-mention.marcuschiu.com)
+[![alt](assets/1.jpeg)](https://https://git.marcuschiu.com/the-law-of-first-mention/)
 
 # How it was Built
 
