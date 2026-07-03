@@ -8,7 +8,7 @@ date: 2025-08-11
 
 # Problem
 
-A couple of days ago [I built Tetris](/tinkering/2025-08-07/) using canvas as the base visual.
+A couple of days ago [I built Tetris](/tech/?slug=2025-08-07--I%27ve-Built-Tetris-Using-ReactJS) using canvas as the base visual.
 Something tickled my ADHD and thought if I could do it in Unicode text.
 
 # Solution
