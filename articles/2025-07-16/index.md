@@ -1,8 +1,9 @@
 ---
-draft: false
+draft: true
 title: "Network File System (NFS)"
 tags: ["linux", "nfs", "networking", "storage"]
 img: 'assets/cover.png'
+date: 2025-07-16
 ---
 
 # Problem

@@ -91,19 +91,6 @@ window.ARTICLES = [
     "img": "2025-07-30/assets/cover.png"
   },
   {
-    "slug": "2025-07-16--Network-File-System-(NFS)",
-    "path": "2025-07-16/index.md",
-    "title": "Network File System (NFS)",
-    "date": "2025-07-16",
-    "tags": [
-      "linux",
-      "nfs",
-      "networking",
-      "storage"
-    ],
-    "img": "2025-07-16/assets/cover.png"
-  },
-  {
     "slug": "2025-06-21--Homelab-%238---Wake-on-LAN-(WoL)-Proxmox",
     "path": "2025-06-21/index.md",
     "title": "Homelab #8 - Wake on LAN (WoL) Proxmox",
