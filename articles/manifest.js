@@ -104,20 +104,6 @@ window.ARTICLES = [
     "img": "2025-06-13/assets/cover.png"
   },
   {
-    "slug": "2025-06-12--Making-This-Website-HTTPS",
-    "path": "2025-06-12/index.md",
-    "title": "Making This Website HTTPS",
-    "date": "2025-06-12",
-    "tags": [
-      "ssl",
-      "nginx",
-      "lets-encrypt",
-      "security",
-      "web-development"
-    ],
-    "img": "2025-06-12/assets/cover.png"
-  },
-  {
     "slug": "2025-06-11--Homelab-%237---Kasm",
     "path": "2025-06-11/index.md",
     "title": "Homelab #7 - Kasm",

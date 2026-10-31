@@ -1,8 +1,9 @@
 ---
-draft: false
+draft: true
 title: "Making This Website HTTPS"
 tags: ["ssl", "nginx", "lets-encrypt", "security", "web-development"]
 img: 'assets/cover.png'
+date: 2025-06-12
 ---
 
 For the longest time this site has been in HTTP mode. It's time to HTTPS it.
