@@ -1,8 +1,9 @@
 ---
-draft: false
+draft: true
 title: "Alert Me on Disk Full  (Telegraf + InfluxDB + Grafana)"
 tags: ["homelab", "monitoring", "grafana", "influxdb", "telegraf"]
 img: 'assets/cover.png'
+date: 2025-08-16
 ---
 
 # Problem

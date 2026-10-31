@@ -78,20 +78,6 @@ window.ARTICLES = [
     "img": "2025-08-18/assets/cover.png"
   },
   {
-    "slug": "2025-08-16--Alert-Me-on-Disk-Full--(Telegraf-%2B-InfluxDB-%2B-Grafana)",
-    "path": "2025-08-16/index.md",
-    "title": "Alert Me on Disk Full  (Telegraf + InfluxDB + Grafana)",
-    "date": "2025-08-16",
-    "tags": [
-      "homelab",
-      "monitoring",
-      "grafana",
-      "influxdb",
-      "telegraf"
-    ],
-    "img": "2025-08-16/assets/cover.png"
-  },
-  {
     "slug": "2025-08-15--The-Law-of-First-Mention",
     "path": "2025-08-15/index.md",
     "title": "The Law of First Mention",
