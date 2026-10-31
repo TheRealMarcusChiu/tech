@@ -90,18 +90,6 @@ window.ARTICLES = [
     "img": "2025-08-15/assets/cover.png"
   },
   {
-    "slug": "2025-08-14--I've-Built-Tetris-Using-ASCII",
-    "path": "2025-08-14/index.md",
-    "title": "I've Built Tetris Using ASCII",
-    "date": "2025-08-14",
-    "tags": [
-      "javascript",
-      "game-development",
-      "web-development"
-    ],
-    "img": "2025-08-14/assets/cover.png"
-  },
-  {
     "slug": "2025-08-11--I've-Built-Tetris-Using-Unicode",
     "path": "2025-08-11/index.md",
     "title": "I've Built Tetris Using Unicode",
