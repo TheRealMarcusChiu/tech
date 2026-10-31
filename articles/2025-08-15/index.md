@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 title: "The Law of First Mention"
 tags: ["bible", "web-development", "javascript"]
 img: 'assets/cover.png'

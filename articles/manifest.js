@@ -78,18 +78,6 @@ window.ARTICLES = [
     "img": "2025-08-18/assets/cover.png"
   },
   {
-    "slug": "2025-08-15--The-Law-of-First-Mention",
-    "path": "2025-08-15/index.md",
-    "title": "The Law of First Mention",
-    "date": "2025-08-15",
-    "tags": [
-      "bible",
-      "web-development",
-      "javascript"
-    ],
-    "img": "2025-08-15/assets/cover.png"
-  },
-  {
     "slug": "2025-07-30--Spring-Boot-3.5-Guides",
     "path": "2025-07-30/index.md",
     "title": "Spring Boot 3.5 Guides",
