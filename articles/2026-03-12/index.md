@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 title: "OPNSense Firewal DNS Redirection"
 tags: ["opnsense", "networking", "dns", "firewall", "router"]
 img: 'assets/cover.png'
