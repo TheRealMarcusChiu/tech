@@ -90,19 +90,6 @@ window.ARTICLES = [
     "img": "2025-08-15/assets/cover.png"
   },
   {
-    "slug": "2025-08-07--I've-Built-Tetris-Using-ReactJS",
-    "path": "2025-08-07/index.md",
-    "title": "I've Built Tetris Using ReactJS",
-    "date": "2025-08-07",
-    "tags": [
-      "react",
-      "javascript",
-      "game-development",
-      "web-development"
-    ],
-    "img": "2025-08-07/assets/cover.png"
-  },
-  {
     "slug": "2025-07-30--Spring-Boot-3.5-Guides",
     "path": "2025-07-30/index.md",
     "title": "Spring Boot 3.5 Guides",
