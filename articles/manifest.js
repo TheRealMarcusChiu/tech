@@ -104,19 +104,6 @@ window.ARTICLES = [
     "img": "2025-06-11/assets/cover.png"
   },
   {
-    "slug": "2025-06-10--Homelab-%236---Fixing-Homebox-Perpetual-Logouts",
-    "path": "2025-06-10/index.md",
-    "title": "Homelab #6 - Fixing Homebox Perpetual Logouts",
-    "date": "2025-06-10",
-    "tags": [
-      "homelab",
-      "kubernetes",
-      "nginx",
-      "troubleshooting"
-    ],
-    "img": "2025-06-10/assets/cover.png"
-  },
-  {
     "slug": "2025-06-08--Homelab-%235---Kubernetes-Cluster-(App-Bonanza!!!!!!)",
     "path": "2025-06-08/index.md",
     "title": "Homelab #5 - Kubernetes Cluster (App Bonanza!!!!!!)",

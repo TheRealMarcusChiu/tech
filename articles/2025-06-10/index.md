@@ -1,8 +1,9 @@
 ---
-draft: false
+draft: true
 title: "Homelab #6 - Fixing Homebox Perpetual Logouts"
 tags: ["homelab", "kubernetes", "nginx", "troubleshooting"]
 img: 'assets/cover.png'
+date: 2025-06-10
 ---
 
 Homelab Series:
