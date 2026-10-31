@@ -56,19 +56,6 @@ window.ARTICLES = [
     "img": "2025-12-02/assets/cover.png"
   },
   {
-    "slug": "2025-12-01--How-to-Enable-IOMMU-on-ASROCK-ROMED8-2T",
-    "path": "2025-12-01/index.md",
-    "title": "How to Enable IOMMU on ASROCK ROMED8-2T",
-    "date": "2025-12-01",
-    "tags": [
-      "homelab",
-      "hardware",
-      "bios",
-      "virtualization"
-    ],
-    "img": "2025-12-01/assets/cover.png"
-  },
-  {
     "slug": "2025-09-18--I've-3D-Scanned-my-Room-(3D-Gaussian-Splatting)",
     "path": "2025-09-18/index.md",
     "title": "I've 3D Scanned my Room (3D Gaussian Splatting)",

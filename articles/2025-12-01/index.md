@@ -1,8 +1,9 @@
 ---
-draft: false
+draft: true
 title: "How to Enable IOMMU on ASROCK ROMED8-2T"
 tags: ["homelab", "hardware", "bios", "virtualization"]
 img: 'assets/cover.png'
+date: 2025-12-01
 ---
 
 You will have to enable it in both:
