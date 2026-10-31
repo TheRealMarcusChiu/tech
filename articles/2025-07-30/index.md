@@ -1,8 +1,9 @@
 ---
-draft: false
+draft: true
 title: "Spring Boot 3.5 Guides"
 tags: ["spring-boot", "java", "backend", "programming"]
 img: 'assets/cover.png'
+date: 2025-07-30
 ---
 
 # Problem

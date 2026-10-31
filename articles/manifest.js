@@ -78,19 +78,6 @@ window.ARTICLES = [
     "img": "2025-08-18/assets/cover.png"
   },
   {
-    "slug": "2025-07-30--Spring-Boot-3.5-Guides",
-    "path": "2025-07-30/index.md",
-    "title": "Spring Boot 3.5 Guides",
-    "date": "2025-07-30",
-    "tags": [
-      "spring-boot",
-      "java",
-      "backend",
-      "programming"
-    ],
-    "img": "2025-07-30/assets/cover.png"
-  },
-  {
     "slug": "2025-06-21--Homelab-%238---Wake-on-LAN-(WoL)-Proxmox",
     "path": "2025-06-21/index.md",
     "title": "Homelab #8 - Wake on LAN (WoL) Proxmox",
