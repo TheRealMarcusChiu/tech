@@ -15,20 +15,6 @@ window.ARTICLES = [
     "img": "2026-01-24/assets/cover.png"
   },
   {
-    "slug": "2025-12-02--NFS-Client-on-Proxmox-LXC",
-    "path": "2025-12-02/index.md",
-    "title": "NFS Client on Proxmox LXC",
-    "date": "2025-12-02",
-    "tags": [
-      "homelab",
-      "proxmox",
-      "nfs",
-      "lxc",
-      "storage"
-    ],
-    "img": "2025-12-02/assets/cover.png"
-  },
-  {
     "slug": "2025-09-18--I've-3D-Scanned-my-Room-(3D-Gaussian-Splatting)",
     "path": "2025-09-18/index.md",
     "title": "I've 3D Scanned my Room (3D Gaussian Splatting)",
