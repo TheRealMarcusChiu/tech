@@ -78,19 +78,6 @@ window.ARTICLES = [
     "img": "2025-08-18/assets/cover.png"
   },
   {
-    "slug": "2025-08-17--Promox-Gitea---Change-HTTP-Port-to-80",
-    "path": "2025-08-17/index.md",
-    "title": "Promox Gitea - Change HTTP Port to 80",
-    "date": "2025-08-17",
-    "tags": [
-      "homelab",
-      "proxmox",
-      "gitea",
-      "self-hosting"
-    ],
-    "img": "2025-08-17/assets/cover.png"
-  },
-  {
     "slug": "2025-08-16--Alert-Me-on-Disk-Full--(Telegraf-%2B-InfluxDB-%2B-Grafana)",
     "path": "2025-08-16/index.md",
     "title": "Alert Me on Disk Full  (Telegraf + InfluxDB + Grafana)",

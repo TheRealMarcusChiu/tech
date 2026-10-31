@@ -1,8 +1,9 @@
 ---
-draft: false
+draft: true
 title: "Promox Gitea - Change HTTP Port to 80"
 tags: ["homelab", "proxmox", "gitea", "self-hosting"]
 img: 'assets/cover.png'
+date: 2025-08-17
 ---
 
 This-ah short one.
