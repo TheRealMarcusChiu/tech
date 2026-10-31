@@ -91,19 +91,6 @@ window.ARTICLES = [
     "img": "2025-06-21/assets/cover.png"
   },
   {
-    "slug": "2025-06-13--How-to-Install-qBittorrent-on-Ubuntu-Server-24.04",
-    "path": "2025-06-13/index.md",
-    "title": "How to Install qBittorrent on Ubuntu Server 24.04",
-    "date": "2025-06-13",
-    "tags": [
-      "linux",
-      "ubuntu",
-      "systemd",
-      "self-hosting"
-    ],
-    "img": "2025-06-13/assets/cover.png"
-  },
-  {
     "slug": "2025-06-11--Homelab-%237---Kasm",
     "path": "2025-06-11/index.md",
     "title": "Homelab #7 - Kasm",
