@@ -27,19 +27,6 @@ window.ARTICLES = [
     "img": "2025-09-18/assets/cover.png"
   },
   {
-    "slug": "2025-09-17--Markov-Chain-Monte-Carlo-(MCMC)",
-    "path": "2025-09-17/index.md",
-    "title": "Markov Chain Monte Carlo (MCMC)",
-    "date": "2025-09-17",
-    "tags": [
-      "mathematics",
-      "statistics",
-      "mcmc",
-      "algorithms"
-    ],
-    "img": "2025-09-17/assets/cover.png"
-  },
-  {
     "slug": "2025-09-01--Vizualizing-Neural-Networks-(Interactive-Tool)",
     "path": "2025-09-01/index.md",
     "title": "Vizualizing Neural Networks (Interactive Tool)",
