@@ -102,20 +102,6 @@ window.ARTICLES = [
     "img": "2025-08-14/assets/cover.png"
   },
   {
-    "slug": "2025-08-13--Alert-me-on-High-Temps-(Telegraf-%2B-InfluxDB-%2B-Grafana)",
-    "path": "2025-08-13/index.md",
-    "title": "Alert me on High Temps (Telegraf + InfluxDB + Grafana)",
-    "date": "2025-08-13",
-    "tags": [
-      "homelab",
-      "monitoring",
-      "grafana",
-      "influxdb",
-      "telegraf"
-    ],
-    "img": "2025-08-13/assets/cover.png"
-  },
-  {
     "slug": "2025-08-11--I've-Built-Tetris-Using-Unicode",
     "path": "2025-08-11/index.md",
     "title": "I've Built Tetris Using Unicode",
