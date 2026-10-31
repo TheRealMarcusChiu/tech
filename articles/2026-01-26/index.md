@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 title: "Simulating 100,000 Celestial Bodies"
 tags: ["algorithms", "simulation", "physics", "web-development"]
 img: 'assets/cover.png'

@@ -15,19 +15,6 @@ window.ARTICLES = [
     "img": "2026-01-28/assets/cover.png"
   },
   {
-    "slug": "2026-01-26--Simulating-100%2C000-Celestial-Bodies",
-    "path": "2026-01-26/index.md",
-    "title": "Simulating 100,000 Celestial Bodies",
-    "date": "2026-01-26",
-    "tags": [
-      "algorithms",
-      "simulation",
-      "physics",
-      "web-development"
-    ],
-    "img": "2026-01-26/assets/cover.png"
-  },
-  {
     "slug": "2026-01-24--Coding-AI-Coding-Agent",
     "path": "2026-01-24/index.md",
     "title": "Coding AI Coding Agent",
