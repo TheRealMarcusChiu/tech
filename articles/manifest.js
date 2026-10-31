@@ -128,19 +128,6 @@ window.ARTICLES = [
     "img": "2025-08-11/assets/cover.png"
   },
   {
-    "slug": "2025-08-08--Locked-out-of-my-Router-(OPNsense)",
-    "path": "2025-08-08/index.md",
-    "title": "Locked out of my Router (OPNsense)",
-    "date": "2025-08-08",
-    "tags": [
-      "opnsense",
-      "networking",
-      "troubleshooting",
-      "router"
-    ],
-    "img": "2025-08-08/assets/cover.png"
-  },
-  {
     "slug": "2025-08-07--I've-Built-Tetris-Using-ReactJS",
     "path": "2025-08-07/index.md",
     "title": "I've Built Tetris Using ReactJS",

@@ -1,8 +1,9 @@
 ---
-draft: false
+draft: true
 title: "Locked out of my Router (OPNsense)"
 tags: ["opnsense", "networking", "troubleshooting", "router"]
 img: 'assets/cover.png'
+date: 2025-08-08
 ---
 
 # Problem
