@@ -1,8 +1,9 @@
 ---
-draft: false
+draft: true
 title: "Permutation vs Combination"
 tags: ["mathematics", "combinatorics"]
 img: 'assets/cover.png'
+date: 2025-06-14
 ---
 
 - **permutation** - refers to the different ways of arranging items from a set of objects, in a sequential order 

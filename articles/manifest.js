@@ -117,17 +117,6 @@ window.ARTICLES = [
     "img": "2025-06-21/assets/cover.png"
   },
   {
-    "slug": "2025-06-14--Permutation-vs-Combination",
-    "path": "2025-06-14/index.md",
-    "title": "Permutation vs Combination",
-    "date": "2025-06-14",
-    "tags": [
-      "mathematics",
-      "combinatorics"
-    ],
-    "img": "2025-06-14/assets/cover.png"
-  },
-  {
     "slug": "2025-06-13--How-to-Install-qBittorrent-on-Ubuntu-Server-24.04",
     "path": "2025-06-13/index.md",
     "title": "How to Install qBittorrent on Ubuntu Server 24.04",
