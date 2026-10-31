@@ -91,19 +91,6 @@ window.ARTICLES = [
     "img": "2025-06-21/assets/cover.png"
   },
   {
-    "slug": "2025-06-11--Homelab-%237---Kasm",
-    "path": "2025-06-11/index.md",
-    "title": "Homelab #7 - Kasm",
-    "date": "2025-06-11",
-    "tags": [
-      "homelab",
-      "kasm",
-      "remote-desktop",
-      "self-hosting"
-    ],
-    "img": "2025-06-11/assets/cover.png"
-  },
-  {
     "slug": "2025-06-08--Homelab-%235---Kubernetes-Cluster-(App-Bonanza!!!!!!)",
     "path": "2025-06-08/index.md",
     "title": "Homelab #5 - Kubernetes Cluster (App Bonanza!!!!!!)",

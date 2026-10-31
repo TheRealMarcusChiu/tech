@@ -1,8 +1,9 @@
 ---
-draft: false
+draft: true
 title: "Homelab #7 - Kasm"
 tags: ["homelab", "kasm", "remote-desktop", "self-hosting"]
 img: 'assets/cover.png'
+date: 2025-06-11
 ---
 
 **What is Kasm?**
@@ -44,4 +45,3 @@ Here's Doom running within my browser through Kasm!
 
 I won’t be using Kasm, as my Proxmox setup already covers this functionality.
 While Kasm has a sleek UI, it seems more suited for enterprise use cases - like companies that need remote desktop solutions, similar to Citrix.
-
