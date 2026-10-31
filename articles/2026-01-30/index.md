@@ -1,8 +1,9 @@
 ---
-draft: false
+draft: true
 title: "How to Uninstall Fedora Asahi Linux from an M1 MacBook Pro"
 tags: ["macos", "linux", "apple-silicon"]
 img: 'assets/cover.png'
+date: 2026-01-30
 ---
 
 If you’ve experimented with [Fedora Asahi Linux on Apple Silicon](https://asahilinux.org/fedora/) and want to reclaim the disk space and return to a clean macOS-only setup, this guide walks through the safe, manual removal process using the `diskutil` CLI.
