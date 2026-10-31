@@ -42,20 +42,6 @@ window.ARTICLES = [
     "img": "2026-01-24/assets/cover.png"
   },
   {
-    "slug": "2025-12-03--How-to-Setup-a-Bitcoin-Pruned-Node-Over-TOR-on-Ubuntu",
-    "path": "2025-12-03/index.md",
-    "title": "How to Setup a Bitcoin Pruned Node Over TOR on Ubuntu",
-    "date": "2025-12-03",
-    "tags": [
-      "bitcoin",
-      "tor",
-      "linux",
-      "self-hosting",
-      "privacy"
-    ],
-    "img": "2025-12-03/assets/cover.png"
-  },
-  {
     "slug": "2025-12-02--NFS-Client-on-Proxmox-LXC",
     "path": "2025-12-02/index.md",
     "title": "NFS Client on Proxmox LXC",

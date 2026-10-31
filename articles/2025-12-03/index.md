@@ -1,8 +1,9 @@
 ---
-draft: false
+draft: true
 title: "How to Setup a Bitcoin Pruned Node Over TOR on Ubuntu"
 tags: ["bitcoin", "tor", "linux", "self-hosting", "privacy"]
 img: 'assets/cover.png'
+date: 2025-12-03
 ---
 
 # Setup TOR
